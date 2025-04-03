@@ -31,7 +31,7 @@
                 </div>
                 <h3>Email Us</h3>
                 <p>Send us an email and we'll get back to you within 24 hours.</p>
-                <a href="mailto:info@voalbania.com" class="contact-info-link">info@voalbania.com</a>
+                <a href="mailto:info@vando.al" class="contact-info-link">info@vando.al</a>
             </div>
 
             <div class="contact-method-item">
@@ -40,7 +40,7 @@
                 </div>
                 <h3>Call Us</h3>
                 <p>Speak directly with our team during business hours.</p>
-                <a href="tel:+11234567890" class="contact-info-link">+1 (123) 456-7890</a>
+                <a href="tel:+35544514641" class="contact-info-link">+355 4 451 4641</a>
             </div>
 
             <div class="contact-method-item">
@@ -49,43 +49,46 @@
                 </div>
                 <h3>Visit Us</h3>
                 <p>Drop by our office for a face-to-face meeting.</p>
-                <address class="contact-info-link">123 Street Name, City, Country</address>
+                <a href="https://www.google.com/maps/place/V%2BO+Communication+Albania/@41.3184004,19.817857,17z/data=!3m1!4b1!4m6!3m5!1s0x1350310244a89e69:0xad0b085928009c82!8m2!3d41.3184004!4d19.817857!16s%2Fg%2F11gh48sr3x?entry=ttu" target="_blank" class="contact-info-link">V+O Communication Albania</a>
             </div>
         </div>
 
         <div class="map-container">
-            <!-- Placeholder for Google Map -->
-            <div class="image-placeholder" style="height: 100%;"></div>
+            <!-- Google Map iframe -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.0584801084087!2d19.817857!3d41.3184004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350310244a89e69%3A0xad0b085928009c82!2sV%2BO%20Communication%20Albania!5e0!3m2!1sen!2s!4v1712178012584!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div class="contact-form-section">
-            <h2 class="section-title">Send Us a Message</h2>
+            <h2 class="section-title">Contact Us</h2>
+            <p class="lead-text">Have a project in mind? Send us a message, and we'll get back to you promptly.</p>
+
             <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
                 <div class="form-row">
                     <div class="form-group">
-                        <label for="name">Your Name *</label>
-                        <input type="text" id="name" name="name" required>
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company">
                     </div>
                     <div class="form-group">
-                        <label for="email">Your Email *</label>
+                        <label for="email">Email Address *</label>
                         <input type="email" id="email" name="email" required>
                     </div>
                 </div>
 
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="company">Company Name</label>
-                        <input type="text" id="company" name="company">
-                    </div>
-                </div>
-
                 <div class="form-group">
-                    <label for="subject">Subject *</label>
-                    <input type="text" id="subject" name="subject" required>
+                    <label for="service">Service *</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="pr">PR & Communications</option>
+                        <option value="event">Event Management</option>
+                        <option value="media">Media Buying</option>
+                        <option value="digital">Digital Solutions</option>
+                        <option value="other">Other</option>
+                    </select>
                 </div>
 
                 <div class="form-group">
